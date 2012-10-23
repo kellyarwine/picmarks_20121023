@@ -1,0 +1,17 @@
+<html>
+	<head>
+	</head>
+	<body>
+
+		<%= link_to "Back", all_pictures_path %>
+		|
+		<%= link_to "Delete", "???" %>
+		|
+		<%= link_to "Edit", "???" %>
+	
+		<h2><%=@single_picture["title"]%></h2>
+
+		<p><%= image_tag @single_picture["url"] %></p>
+
+	</body>
+</html>
